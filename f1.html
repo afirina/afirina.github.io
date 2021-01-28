@@ -21,17 +21,20 @@
    0 1px rgba(255,255,255,.2) inset,
    0 3px 5px rgba(0,1,6,.5),
    0 0 1px 1px rgba(0,1,6,.2);
+	top: 1px;
+	bottom: 5px ;
 	}
  
  .b_reset:active{
-  top: 3px ;
+	top: 5px;
   background: linear-gradient( to bottom, #a91919, #af1919) ;
   box-shadow:
    0 0 1px rgba(0,0,0,.5) inset,
    0 2px 3px rgba(0,0,0,.5) inset,
    0 1px 1px rgba(255,255,255,.1);
+	top: 5px;
+	bottom: 1px;
 	}
-
 </style>
 
 
@@ -51,6 +54,8 @@
    0 1px rgba(255,255,255,.2) inset,
    0 3px 5px rgba(0,1,6,.5),
    0 0 1px 1px rgba(0,1,6,.2);
+	top: 1px;
+	bottom: 5px ;
 	}
  
  .b_submit:active{
@@ -60,6 +65,8 @@
    0 0 1px rgba(0,0,0,.5) inset,
    0 2px 3px rgba(0,0,0,.5) inset,
    0 1px 1px rgba(255,255,255,.1);
+	top: 5px;
+	bottom: 1px;
 	}
 
 </style>
@@ -79,24 +86,26 @@ style = "border:2px solid black;
 >
 
 
-<table width="100%" cols = "2" rules="rows" style = "border: 3px solid black; border-collapse; font-size: 2em" cellpadding="10%" >
+<table width="100%" cols = "2" rules="rows" cellpadding="10%" style = "border: 3px solid black; border-collapse; font-size: 2em">
 
 
- <tr>
+ <tr style="white-space: normal;">
 	<td width="70%">
 		<button type="reset" class="b_reset" style="width:50%; font-size:2em;">Очистить форму</button>
 	</td>
 
 	<td>
-		<button type="sumbit" class="b_submit" style="font-size:2em;">Отправить сводку</button>		
+		<button type="sumbit" class="b_submit" style="font-size:2em;">Отправить сводку<br></button>		
 	</td>
 
  </tr>
 
+
+
 </table>
 </form>
 
-<h1>Test Line 0</h1>
+<h1>Test Line 2</h1>
 
 </body>
 </html>
